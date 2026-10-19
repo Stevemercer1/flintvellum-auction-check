@@ -5,8 +5,8 @@ var fs = require("fs");
 var path = require("path");
 var os = require("os");
 
-var SUPABASE_URL = "PASTE_YOUR_PROJECT_URL";
-var SUPABASE_ANON_KEY = "PASTE_YOUR_ANON_KEY";
+var SUPABASE_URL = "https://brzxdayxgibsaizjglbn.supabase.co";
+var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJyenhkYXl4Z2lic2FpempnbGJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIzNjc5MDMsImV4cCI6MjEwNzk0MzkwM30.FATzL4WJ3auORU3un-xFWj43-gBI8DICHixckyLSX94";
 
 var HOME = os.homedir();
 var PLAT = process.platform;
